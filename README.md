@@ -2,12 +2,13 @@
 Python Taiwan Real Estate Price API Server & Crawler
 
 # Requirements
-
-- Python 3.7
+- OS: Windows 10 or 11 (Test Pass: Windows 11)
+- Python: 3.7
 - [Chrome Driver](https://chromedriver.chromium.org/)
 - [Spark 3.0.3](https://spark.apache.org/downloads.html)
+- Hadoop 3.2
 - (Optional) [Redis](https://redis.io/download)
-
+- (Optional) Miniconda
 # How To Start
 
 1. Setup Python 3.7, Spark and Hadoop environments and run following command.
