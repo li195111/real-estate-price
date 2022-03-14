@@ -29,6 +29,10 @@ If you want set by command can run following.
 ```
 python main.py --dotenv=False --download_path=./downloads --publish=108年第2季
 ```
+Run API server after main process. add `--api` flag
+```
+python main.py --api --dotenv=False --download_path=./downloads --publish=108年第2季
+```
 
 ## Server Only
 

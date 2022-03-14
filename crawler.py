@@ -16,6 +16,7 @@ def parse_data(publish, file_format, names, download_path, zip_file_path, unzip_
         opts = ChromeOptions()
         prefs = {"download.default_directory" : download_path}
         opts.add_experimental_option("prefs",prefs)
+        opts.add_argument("--headless")
         driver = Chrome(executable_path=driver_path, options=opts)
         root_url = 'https://plvr.land.moi.gov.tw/DownloadOpenData'
         driver.get(root_url)
