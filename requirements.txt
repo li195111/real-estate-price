@@ -1,0 +1,30 @@
+# Crawling
+selenium
+pandas
+
+# 
+pyspark[sql]==3.0.3
+pyspark[pandas_on_spark]==3.0.3
+plotly
+
+# Utils
+pycnnum
+
+# API
+fastapi
+uvicorn
+
+# .env
+python-dotenv
+
+# Memory Storage
+Redis
+
+# Async Task
+celery[redis]
+
+# Authentication / Crypto
+jwcrypto
+
+# test, visualization
+jupyter
