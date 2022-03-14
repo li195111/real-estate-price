@@ -133,3 +133,4 @@ dmypy.json
 .vscode/*
 result-part1.json
 result-part2.json
+*.pptx
